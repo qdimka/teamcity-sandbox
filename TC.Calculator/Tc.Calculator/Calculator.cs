@@ -10,10 +10,33 @@ namespace Tc
 			=> first + second;
 
 		public int DuplicateSum(int first, int second)
-			=> first + second;
+		{
+			var b = first + second;
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			return first + second;
+		}
 
 		public int ReDuplicateSum(int first, int second)
-			=> first + second;
+		{
+			var b = first + second;
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+
+			return first + second;
+		}
 
 		public int Division(int first, int second)
 		{
