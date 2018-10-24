@@ -10,7 +10,10 @@ namespace Tc
 			=> first + second;
 
 		public int DuplicateSum(int first, int second)
-			=> first;
+			=> first + second;
+
+		public int ReDuplicateSum(int first, int second)
+			=> first + second;
 
 		public int Division(int first, int second)
 		{

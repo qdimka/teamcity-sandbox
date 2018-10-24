@@ -1,0 +1,11 @@
+{
+  "ServerUri": "http://10.0.75.1:9000",
+  "Organization": null,
+  "ProjectKey": "SandBox",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AWalHYSHYwm7IIKaj4Vk",
+      "ProfileTimestamp": "2018-10-24T11:07:47+03:00"
+    }
+  }
+}
