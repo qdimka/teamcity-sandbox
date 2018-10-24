@@ -20,7 +20,48 @@ namespace Tc
 			{
 				first--;
 			}
-			return first + second;
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+
+            return first + second;
 		}
 
 		public int ReDuplicateSum(int first, int second)
@@ -34,8 +75,48 @@ namespace Tc
 			{
 				first--;
 			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first++;
+			}
+			for (int i = 0; i < second; i++)
+			{
+				first--;
+			}
 
-			return first + second;
+            return first + second;
 		}
 
 		public int Division(int first, int second)
