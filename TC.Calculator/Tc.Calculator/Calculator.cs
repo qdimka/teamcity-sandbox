@@ -4,6 +4,8 @@ namespace Tc
 {
 	public class Calculator
 	{
+		public Calculator instance = new Calculator();
+
 		public int Sum(int first, int second)
 			=> first + second;
 
