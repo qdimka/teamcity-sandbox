@@ -9,6 +9,9 @@ namespace Tc
 		public int Sum(int first, int second)
 			=> first + second;
 
+		public int DuplicateSum(int first, int second)
+			=> first + second;
+
 		public int Division(int first, int second)
 		{
 			if(second == 0)
