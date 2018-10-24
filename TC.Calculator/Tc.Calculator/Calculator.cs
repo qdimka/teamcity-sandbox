@@ -61,7 +61,12 @@ namespace Tc
 				first--;
 			}
 
-            return first + second;
+			return first + second;
+		}
+
+		public async void Nothing()
+		{
+
 		}
 
 		public int ReDuplicateSum(int first, int second)
@@ -116,7 +121,7 @@ namespace Tc
 				first--;
 			}
 
-            return first + second;
+			return first + second;
 		}
 
 		public int Division(int first, int second)
