@@ -4,7 +4,7 @@ namespace Tc
 {
 	public class Calculator
 	{
-		public Calculator instance = new Calculator();
+		public string instance = "";
 
 		public int Sum(int first, int second)
 			=> first + second;
