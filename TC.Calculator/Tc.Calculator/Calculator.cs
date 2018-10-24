@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tc
 {
@@ -10,7 +8,7 @@ namespace Tc
 			=> first + second;
 
 		public int DuplicateSum(int first, int second)
-			=> first + second;
+			=> first;
 
 		public int Division(int first, int second)
 		{
