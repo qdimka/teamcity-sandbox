@@ -16,7 +16,7 @@ namespace Tc
 		{
 			if(second == 0)
 				throw new InvalidOperationException(nameof(second));
-
+			GC.Collect(2, GCCollectionMode.Optimized);
 			return first / second;
 		}
 	}
